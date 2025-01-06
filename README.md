@@ -55,41 +55,41 @@ To get start with this framework, you will need to have the following software o
     Extent reports
     JUnit reports
     About Framework:
-• I built my framework by using Java Programming Language.
-• I used maven as a build automation tool for this framework.
-• I used Selenium (4.27.0) and TestNG to orchestrate my tests, and put the dependencies and plugin inside pom.xml file.
-• For assertions/verifications, I utilized TestNG assertions to compare actual and expected results.
-• I created a properties file to store related data such as browser and urls.
-• I used Page Object Model Design Pattern to enhance test maintenance and reducing code duplication.
-• Inside pages package; I used Page Classes to store and identify the elements that I worked on. Also I stored related methods in page classes.
-• I used the PageFactory class and initElements method to initialize them.
-• Inside tests package;
-• I used TestRunner class and linked it to testRunner.xml file to run declared tests or suits.
-• I created TestBase class to run and instantiate related steps and initialize ExtendReport.
+• I built my framework by using Java Programming Language.\
+• I used maven as a build automation tool for this framework.\
+• I used Selenium (4.27.0) and TestNG to orchestrate my tests, and put the dependencies and plugin inside pom.xml file.\
+• For assertions/verifications, I utilized TestNG assertions to compare actual and expected results.\
+• I created a properties file to store related data such as browser and urls.\
+• I used Page Object Model Design Pattern to enhance test maintenance and reducing code duplication.\
+• Inside pages package; I used Page Classes to store and identify the elements that I worked on. Also I stored related methods in page classes.\
+• I used the PageFactory class and initElements method to initialize them.\
+• Inside tests package;\
+• I used TestRunner class and linked it to testRunner.xml file to run declared tests or suits.\
+• I created TestBase class to run and instantiate related steps and initialize ExtendReport.\
 • I stored test cases inside InsiderTests class.
-• I added a screenshot interface in After method in Hooks class; when the scenario fails, it takes a screenshot.
-• Inside utilities package, utility classes such as BrowserUtils, Driver, and ConfigurationReader were stored.
-• I used the Singleton Design Pattern in Driver class by declaring constructor of class as private, so that no one instantiates class outside of it. And declared a static method with return type as object of class which should check if class is already instantiated once.
-• Additionally after running tests and if any of them fails, you can have the screenshot attached report when you open the "test-output/report.html" on explorer.
-• If you run the test by TestRunner class, you can have JUnitReports inside test-output folder.
-• My framework is easy to maintain since I have elements stored in one centralized place. If any changes happen on the application about the elements, I know where to go and how to fix it to run test scripts correctly.
+• I added a screenshot interface in After method in Hooks class; when the scenario fails, it takes a screenshot.\
+• Inside utilities package, utility classes such as BrowserUtils, Driver, and ConfigurationReader were stored.\
+• I used the Singleton Design Pattern in Driver class by declaring constructor of class as private, so that no one instantiates class outside of it. And declared a static method with return type as object of class which should check if class is already instantiated once.\
+• Additionally after running tests and if any of them fails, you can have the screenshot attached report when you open the "test-output/report.html" on explorer.\
+• If you run the test by TestRunner class, you can have JUnitReports inside test-output folder.\
+• My framework is easy to maintain since I have elements stored in one centralized place. If any changes happen on the application about the elements, I know where to go and how to fix it to run test scripts correctly.\
 
 ### N11 LOAD TEST TASK
-• TASK: Load tests and scenarios are needed to investigate the behavior of the search module of the https://www.n11.com/ header and list the results after the search.
-• Load test cases which are related to the task are stored in insider_load_task directory
-• There is 1 User Story, 4 Acceptance Criterias, 5 Test Cases inside .pdf file.
-• You can reach out test codes via insider_load_task directory/Insider N11 Load Test Fatih Tosun.jmx
-• To have the report of the load test run the below command on terminal;
+• TASK: Load tests and scenarios are needed to investigate the behavior of the search module of the https://www.n11.com/ header and list the results after the search.\
+• Load test cases which are related to the task are stored in insider_load_task directory\
+• There is 1 User Story, 4 Acceptance Criterias, 5 Test Cases inside .pdf file.\
+• You can reach out test codes via insider_load_task directory/Insider N11 Load Test Fatih Tosun.jmx\
+• To have the report of the load test run the below command on terminal;\
 
-jmeter -n -t <location of jmeter script> -l <location of result file> -e -o <location of report folder>
-Sample path:
-• To read the report of test go to Report folder and click on .html file
-• You can reach out test report via insider_load_task directory/Report
+jmeter -n -t <location of jmeter script> -l <location of result file> -e -o <location of report folder>\
+Sample path:\
+• To read the report of test go to Report folder and click on .html file\
+• You can reach out test report via insider_load_task directory/Report\
 
 ### PET SORE API TEST CASES TASK
-• TASK: Using “pet” endpoints from https://petstore.swagger.io/ write CRUD operations API tests with positive and negative scenarios.
-• Positive and negative test cases which are related to the task are stored in insider_api_task/Insider_API_Task_Fatih_Tosun.pdf
-• There is 1 User Story, 4 Acceptance Criterias, 4 Positive, 4 Negative, Totally 8 Test Cases inside .pdf file.
+• TASK: Using “pet” endpoints from https://petstore.swagger.io/ write CRUD operations API tests with positive and negative scenarios.\
+• Positive and negative test cases which are related to the task are stored in insider_api_task/Insider_API_Task_Fatih_Tosun.pdf\
+• There is 1 User Story, 4 Acceptance Criterias, 4 Positive, 4 Negative, Totally 8 Test Cases inside .pdf file.\
 
 ### Contact:
-If you have any questions or feedback, please contact me via fatihtosun.qa@gmail.com
+If you have any questions or feedback, please contact me via fatihtosun.qa@gmail.com\
