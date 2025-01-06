@@ -37,12 +37,16 @@ To get start with this framework, you will need to have the following software o
   webdrivermanager
   Maven Surefire Plugin
 ### Installation
+ 
   Clone the project to your computer: git clone
     ```https://github.com/FTosun21/Insider_Fatih_Tosun.git```
+  
   Navigate to the project directory: 
     ```cd Insider_Fatih_Tosun```
+  
   Install Maven dependencies: 
     ```mvn clean install```
+
 ### How to Run:
   You can run the tests using Maven commands, TestRunner class and by Test Annotations inside InsiderTest class.
   Test reports are generated in the target/surefire-reports andtest-output folders.
