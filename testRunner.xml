@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insider_Fatih_Tosun">
+
+    <test name="NavigationTest Class Test">
+        <classes>
+            <class name="com.useinsider.tests.NavigationTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1736131696181,375,arama tamamla,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,2393,795,1,1,https://www.n11.com/arama/tamamla?keyword=Laptop,371,0,342
+1736131696559,24,arama,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,2126,948,1,1,https://www.n11.com/arama?q=laptop,23,0,0
+1736131696586,23,hesap bilgileri,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,2127,957,1,1,https://www.n11.com/hesabim/hesap-bilgileri,22,0,0
+1736131696610,22,live chat,403,Forbidden,Thread Group 1-1,text,false,Test failed: code expected to contain /200/,2128,961,1,1,https://www.n11.com/live-chat?pathName=%2Farama,22,0,0
+1736131696142,444,Search Transaction,,"Number of samples in transaction : 4, number of failing samples : 4",Thread Group 1-1,,false,,8774,3661,1,1,null,438,47,342
