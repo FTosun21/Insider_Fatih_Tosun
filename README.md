@@ -81,7 +81,7 @@ To get start with this framework, you will need to have the following software o
 • You can reach out test codes via insider_load_task directory/Insider N11 Load Test Fatih Tosun.jmx\
 • To have the report of the load test run the below command on terminal;\
 
-```jmeter -n -t <location of jmeter script> -l <location of result file> -e -o <location of report folder>\```
+```jmeter -n -t <location of jmeter script> -l <location of result file> -e -o <location of report folder>```\
 Sample path:\
 • To read the report of test go to Report folder and click on .html file\
 • You can reach out test report via insider_load_task directory/Report\
